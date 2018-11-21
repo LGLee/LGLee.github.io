@@ -1,26 +1,30 @@
 
  <!DOCTYPE HTML>
-<html>
+<html lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
   
-    <title>lingo</title>
+    <title>lingo的博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="lingo">
     
 
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="lingo">
+    <meta name="description" content="一个 iOS 工程师">
+<meta name="keywords" content="iOS">
+<meta property="og:type" content="website">
+<meta property="og:title" content="lingo的博客">
 <meta property="og:url" content="https://lglee.github.io/index.html">
-<meta property="og:site_name" content="lingo">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="lingo的博客">
+<meta property="og:description" content="一个 iOS 工程师">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="lingo">
+<meta name="twitter:title" content="lingo的博客">
+<meta name="twitter:description" content="一个 iOS 工程师">
 
     
-    <link rel="alternative" href="/atom.xml" title="lingo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="lingo的博客" type="application/atom+xml">
     
     
     <link rel="icon" href="/img/favicon.ico">
@@ -38,14 +42,14 @@
 <div>
 		
 			<div id="imglogo">
-				<a href="/"><img src="/img/logo.png" alt="lingo" title="lingo"></a>
+				<a href="/"><img src="/img/logo.png" alt="lingo的博客" title="lingo的博客"></a>
 			</div>
 			
 			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="lingo">lingo</a></h1>
+				<h1 class="site-name"><a href="/" title="lingo的博客">lingo的博客</a></h1>
 				<h2 class="blog-motto"></h2>
 			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
 			</a></div>
 			<nav class="animated">
 				<ul>
@@ -61,7 +65,7 @@
  					
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search">
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索">
 						<input type="hidden" name="q" value="site:lglee.github.io">
 					</form>
 					
@@ -79,122 +83,6 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2018/11/21/第二篇/" title="第二篇" itemprop="url">第二篇</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="lingo" target="_blank" itemprop="author">lingo</a>
-		
-  </p><p class="article-time">
-    <time datetime="2018-11-21T09:38:00.000Z" itemprop="datePublished"> Published 2018-11-21</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>我是测试!! 我是测试</p>
-<p><img src="" alt=""></p>
-<p>图片二:</p>
-<p><img src="/Users/lilinguo510/MyBlog/themes/jacman/source/blog_images/timg.jpeg" alt=""></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2018/11/21/我的测试文章/" title="我的测试文章" itemprop="url">我的测试文章</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="lingo" target="_blank" itemprop="author">lingo</a>
-		
-  </p><p class="article-time">
-    <time datetime="2018-11-21T08:15:41.000Z" itemprop="datePublished"> Published 2018-11-21</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <h2 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h2><p>工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。</p>
-<p>在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个共同的接口来指向新创建的对象。</p>
-<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
-<li>意图：定义一个创建对象的接口，让其子类自己决定实例化哪一个工厂类，工厂模式使其创建过程延迟到子类进行。</li>
-<li>主要解决：主要解决接口选择的问题。</li>
-<li>何时使用：我们明确地计划不同条件下创建不同实例时。</li>
-<li>如何解决：让其子类实现工厂接口，返回的也是一个抽象的产品。</li>
-<li>关键代码：创建过程在其子类执行。</li>
-<li>应用实例： 1、您需要一辆汽车，可以直接从工厂里面提货，而不用去管这辆汽车是怎么做出来的，以及这个汽车里面的具体实现。 2、Hibernate 换数据库只需换方言和驱动就可以。</li>
-<li>优点： 1、一个调用者想创建一个对象，只要知道其名称就可以了。 2、扩展性高，如果想增加一个产品，只要扩展一个工厂类就可以。 3、屏蔽产品的具体实现，调用者只关心产品的接口。</li>
-<li>缺点：每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。这并不是什么好事。</li>
-<li>使用场景： 1、日志记录器：记录可能记录到本地硬盘、系统事件、远程服务器等，用户可以选择记录日志到什么地方。 2、数据库访问，当用户不知道最后系统采用哪一类数据库，以及数据库可能有变化时。 3、设计一个连接服务器的框架，需要三个协议，”POP3”、”IMAP”、”HTTP”，可以把这三个作为产品类，共同实现一个接口。</li>
-<li>注意事项：作为一种创建类模式，在任何需要生成复杂对象的地方，都可以使用工厂方法模式。有一点需要注意的地方就是复杂对象适合使用工厂模式，而简单对象，特别是只需要通过 new 就可以完成创建的对象，无需使用工厂模式。如果使用工厂模式，就需要引入一个工厂类，会增加系统的复杂度。</li>
-</ul>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
       <a href="/2018/11/21/hello-world/" title="Hello World" itemprop="url">Hello World</a>
   </h1>
   <p class="article-author">By
@@ -202,7 +90,7 @@
 		<a href="/about" title="lingo" target="_blank" itemprop="author">lingo</a>
 		
   </p><p class="article-time">
-    <time datetime="2018-11-21T07:30:00.050Z" itemprop="datePublished"> Published 2018-11-21</time>
+    <time datetime="2018-11-21T07:30:00.050Z" itemprop="datePublished"> 发表于 2018-11-21</time>
     
   </p>
 </header>
@@ -249,21 +137,47 @@
 
 
 </div>
-      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
 <div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
 
   
 
 
   
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+		
+		  
+		
+		  
+		
+		</ul>
+</div>
+
 
   
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+		
+			
+		
+			
+		
+		</ul>
+</div>
+
 
   <div class="linkslist">
-  <p class="asidetitle">Links</p>
+  <p class="asidetitle">友情链接</p>
     <ul>
         
           <li>
@@ -281,15 +195,12 @@
     </ul>
 </div>
 
-  
-
-
   <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
 </div>
 
   <div class="weiboshow">
-  <p class="asidetitle">Weibo</p>
+  <p class="asidetitle">新浪微博</p>
     <iframe width="100%" height="119" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=&verifier=b3593ceb&dpc=1"></iframe>
 </div>
 
@@ -441,7 +352,7 @@ var _hmt = _hmt || [];
 <!-- Totop Begin -->
 
 	<div id="totop">
-	<a title="Back to Top"><img src="/img/scrollup.png"></a>
+	<a title="返回顶部"><img src="/img/scrollup.png"></a>
 	</div>
 	<script src="/js/totop.js"></script>
 
